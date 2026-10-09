@@ -1,0 +1,21 @@
+{
+  "name": "ks-origin",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "dotenv -e .env -- shopify theme dev --theme-editor-sync",
+    "lint": "eslint \"**/*.{js,liquid}\"",
+    "push": "dotenv -e .env -- shopify theme push",
+    "pull": "dotenv -e .env -- shopify theme pull"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "dotenv-cli": "^11.0.0",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-html": "^8.1.2",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  }
+}
